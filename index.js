@@ -1,10 +1,10 @@
 
 
-for (i = 1; (i <= 200); i++) {
+for (i = 1; (i <= 100); i++) {
   const grid16 = document.createElement("div");
-  grid16.textContent = i;
-  grid16.style.width = "5%"
-  grid16.style.height = "5rem"
+  grid16.textContent = "";
+  grid16.style.width = "10%"
+  grid16.style.height = "3rem"
   
 
   
