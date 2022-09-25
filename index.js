@@ -1,14 +1,14 @@
-// const button = document.querySelector("#squareCount");
-// const gridContainer = document.getElementById("gridContainer")
+const button = document.querySelector("#squareCount");
+const gridContainer = document.getElementById("gridContainer")
 
-// function setGrid(){
-//   button.addEventListener('click', () => {
-//     answer = prompt("How many squares per side? (Max 100)")
-//     // console.log(`"${answer}"`);
-//     gridContainer.style.gridTemplateColumns = `${answer}`;
-//   })
-// }
-// setGrid()
+function setGrid(){
+  button.addEventListener('click', () => {
+    answer = prompt("How many squares per side? (Max 100)")
+    // console.log(`"${answer}"`);
+    gridContainer.style.gridTemplateColumns = `repeat(${answer},1fr)`;
+  })
+}
+setGrid()
 
 // function playGame() {
 //   button.addEventListener("click", () => {
@@ -45,5 +45,5 @@
 
 // playGame();
 
-// // console.log(i);
-// // console.log('hi')
+// console.log(i);
+// console.log('hi')
