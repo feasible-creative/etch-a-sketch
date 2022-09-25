@@ -7,10 +7,36 @@ body {
   background-color: steelblue;
 }
 
-#gridContainer {
+.button-container{
   display: flex;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
+
+#squareCount{
+  width: 50%;
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  margin-bottom: 5rem;
+  color: white;
+  background-color: rgb(76, 118, 244);
+  box-shadow: 0rem .25rem .25rem rgba(0, 0, 0, .5);
+  border-style: none;
+  font-weight: bold;
+  font-size: 1rem;
+  }
+
+#gridContainer {
+  /* display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
+  width: 100vw;
+  max-width: 20rem; */
+
+  display: grid;
+  /* grid-template-columns: auto auto auto auto; */
+  background-color: rgb(64, 0, 255);
+  color: white;
+
 }
 
 .gridItem{
@@ -25,9 +51,3 @@ body {
 } */
 
 
-#squareCount{
-width: 50%;
-padding: 2rem;
-border-radius: 4rem;
-margin-bottom: 5rem;
-}
