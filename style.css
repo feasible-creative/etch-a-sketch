@@ -3,8 +3,15 @@
   margin: 0;
 }
 
+.disable-dbl-tap-zoom{
+  touch-action: manipulation;
+}
+
 body {
   background-color: steelblue;
+  overflow: hidden;
+  position: fixed;
+  width: 100vw;
 }
 
 .button-container{
