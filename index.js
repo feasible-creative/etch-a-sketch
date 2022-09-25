@@ -25,10 +25,17 @@ function setGrid(){
 
       grid16.addEventListener("mouseover", () => {
         // grid16.style.backgroundColor = "black"
+
+        // random color selector:
         const randomColor = Math.floor(Math.random() * 16777215).toString(16);
         grid16.style.backgroundColor = "#" + randomColor;
 
         grid16.style.backgroundColor = "randomColor";
+
+
+
+
+        
       });
     }
 
