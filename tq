@@ -1,0 +1,59 @@
+[33mcommit a4a9c6364ef4625b9a10fabbf5da3cd8a55c73f6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: feasible-creative <feasible.creative@gmail.com>
+Date:   Sun Sep 25 16:35:24 2022 -0400
+
+    Disable scroll and double tap zoom on iOS
+
+[33mcommit 805c0c576702568e779fbf3500eda80fd507cee2[m
+Author: feasible-creative <feasible.creative@gmail.com>
+Date:   Sun Sep 25 15:16:34 2022 -0400
+
+    Update JavaScript to output equally sized squares based on userinput to button click event
+
+[33mcommit aaad3e074e0b99415285fb81695d6400c63f170b[m
+Author: feasible-creative <feasible.creative@gmail.com>
+Date:   Sun Sep 25 15:07:24 2022 -0400
+
+    Enable JavaScript to allow user to input amount of columns desired
+
+[33mcommit 8731b84df23e697e463bfa0bd2905dcaf4e344b4[m
+Author: feasible-creative <feasible.creative@gmail.com>
+Date:   Sun Sep 25 15:03:51 2022 -0400
+
+    disable JavaScript to test 16x16 div dimensions
+
+[33mcommit 40e26fc8b20f0cbcb3dee1b3baa641f14d166165[m
+Author: feasible-creative <feasible.creative@gmail.com>
+Date:   Sun Sep 25 11:25:07 2022 -0400
+
+    Update CSS properties, push user prompt response after click evevent listener to set amount of columns
+
+[33mcommit 68557eca94834027c454514782d57bba1739cf8f[m
+Author: feasible <feasible.creative@gmail.com>
+Date:   Fri Sep 23 18:23:58 2022 -0400
+
+    update amount of squares
+
+[33mcommit 859d52d796a5efa7f2baca8c022a50983b89d37e[m
+Author: feasible <feasible.creative@gmail.com>
+Date:   Fri Sep 23 16:39:19 2022 -0400
+
+    Add div amounts to change to random color on hover
+
+[33mcommit ed25ac3adca7a1f71178bf31d23aead39687c040[m
+Author: feasible <feasible.creative@gmail.com>
+Date:   Fri Sep 23 14:25:25 2022 -0400
+
+    Loop in 16 divs, WIP change color on hover
+
+[33mcommit 3bee6450b4b3efd87d1b825f9f0a7bb8889fb698[m
+Author: feasible <feasible.creative@gmail.com>
+Date:   Fri Sep 23 13:58:26 2022 -0400
+
+    set up & link HTML, CSS, JavaScript files
+
+[33mcommit d2b54800cb2d99fb76c900259a89158731b57f22[m
+Author: feasible.creative <109560579+feasible-creative@users.noreply.github.com>
+Date:   Fri Sep 23 13:46:17 2022 -0400
+
+    Initial commit
