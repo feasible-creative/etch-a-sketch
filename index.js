@@ -9,6 +9,11 @@ function setGrid() {
     if (answer > 100) {
       alert("ERROR: Please select a value less than 100.");
     }
+    else if (answer < 0) {
+      alert("ERROR: Please select a positive value less than 100.");
+    }
+
+
 
     // console.log(`"${answer}"`);
     else {
@@ -17,13 +22,17 @@ function setGrid() {
       for (i = 1; i <= answer ** 2; i++) {
         const grid16 = document.createElement("div");
         grid16.textContent = "";
+        // grid16.classList.add("grid16");
+      
+      
 
         // grid16.style.width = `${answer}` + "px";
         // grid16.style.height = `${answer}` + "px";
 
         gridContainer.appendChild(grid16);
 
-        grid16.classList.add("gridItem");
+        if (answer <= 40){
+        grid16.classList.add("gridItem")};
 
         grid16.addEventListener("mouseover", () => {
           // grid16.style.backgroundColor = "black"

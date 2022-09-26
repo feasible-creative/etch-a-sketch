@@ -34,6 +34,7 @@ body {
   transition: all 300ms;
 }
 
+
 #squareCount:hover{
   opacity: 90%;
   cursor: pointer;
@@ -76,9 +77,8 @@ body {
 .gridItem {
   background-color: rgb(255, 255, 255);
   align-items: center;
-  /* padding: 6rem; */
-}
+  border-width: .01rem;
+  border-color: rgb(210, 210, 210);
+  border-style: solid;
 
-/* .gridItem:hover{
-  background-color: red;
-} */
+}
