@@ -55,12 +55,12 @@ body {
   color: white;
 }
 
-#colorPicker {
+/* #colorPicker {
   display: flex;
   width: 25%;
   height: 2rem;
   margin: auto;
-}
+} */
 
 #outerContainer {
   display: flex;
