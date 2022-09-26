@@ -1,24 +1,19 @@
 const button = document.querySelector("#squareCount");
-const gridContainer = document.getElementById("gridContainer")
+const gridContainer = document.getElementById("gridContainer");
 
-function setGrid(){
-  button.addEventListener('click', () => {
-    answer = prompt("How many squares per side? (Max 100)")
+function setGrid() {
+  button.addEventListener("click", () => {
+    answer = prompt("How many squares per side? (Max 100)");
     // console.log(`"${answer}"`);
     gridContainer.style.gridTemplateColumns = `repeat(${answer},1fr)`;
 
-
-
-    for (i = 1; i <= (answer**2); i++) {
+    for (i = 1; i <= answer ** 2; i++) {
       const grid16 = document.createElement("div");
       grid16.textContent = "";
-
 
       // grid16.style.width = `${answer}` + "px";
       // grid16.style.height = `${answer}` + "px";
 
-
-        
       gridContainer.appendChild(grid16);
 
       grid16.classList.add("gridItem");
@@ -31,27 +26,12 @@ function setGrid(){
         grid16.style.backgroundColor = "#" + randomColor;
 
         grid16.style.backgroundColor = "randomColor";
-
-
-
-
-        
       });
     }
-
-
-
-
-
-  })
+  });
 }
 
-
-
-
-
-
-setGrid()
+setGrid();
 
 // function playGame() {
 //   button.addEventListener("click", () => {
@@ -65,12 +45,9 @@ setGrid()
 //       const grid16 = document.createElement("div");
 //       grid16.textContent = "";
 
-
 //       // grid16.style.width = `${answer}` + "px";
 //       // grid16.style.height = `${answer}` + "px";
 
-
-        
 //       gridContainer.appendChild(grid16);
 
 //       grid16.classList.add("gridItem");
